@@ -1,8 +1,8 @@
 ﻿////////////////////////////////////////////////////////////////////////////
-// Date             Developer           Description: 
+// Date             Developer          
 // 2021-03-12      Yahya Mirzaei 
 
-
+//Description: 
 //tinfo200:[2021-03-13-yahyam2-dykstra1]
 // This file of code creates a database and the data goes into database
 
@@ -44,7 +44,7 @@ namespace ContosoUniversity.Data
             };
 
             //tinfo200:[2021-03-13-yahyam2-dykstra1]
-            // Adding student ?????????????????????
+            // Adding student to the context
             foreach (Student s in students)
             {
                 // Adding student
@@ -69,11 +69,14 @@ namespace ContosoUniversity.Data
             new Course{CourseID=2042,Title="Literature",Credits=4}
             };
 
-            //??????
+            //tinfo200:[2021-03-13-yahyam2-dykstra1]
+            // Adding to the context
+
             foreach (Course c in courses)
             {
                 context.Courses.Add(c);
             }
+            // Save the changes 
             context.SaveChanges();
 
 
@@ -106,11 +109,3 @@ namespace ContosoUniversity.Data
         }
     }
 }
-
-
-//< !--//tinfo200:[2021-03-13-yahyam2-dykstra1] - Perliminary material being added to the home/Index method's view. -->
-//@*
-    //tinfo200:[2021-03-13-yahyam2-dykstra1] - Perliminary material being added to the home/Index method's view.
-    //changed the home page for the Contoso University
-
-//*@

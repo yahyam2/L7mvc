@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 namespace ContosoUniversity.Data
 {
     //tinfo200:[2021-03-13-yahyam2-dykstra1]
-
     //This is school context inherits and for the data base class context.
     public class SchoolContext : DbContext
     {
@@ -24,7 +23,7 @@ namespace ContosoUniversity.Data
         public DbSet<Student> Students { get; set; }
 
         //tinfo200:[2021-03-13-yahyam2-dykstra1] 
-        //This method creates the default behavior by specifying singular table names in the data base Context
+        //This method specifying singular table names in the data base Context.
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Course>().ToTable("Course");

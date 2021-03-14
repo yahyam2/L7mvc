@@ -149,4 +149,3 @@ C:\YM200\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Delete.cshtml.g
 C:\YM200\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Details.cshtml.g.cs
 C:\YM200\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Edit.cshtml.g.cs
 C:\YM200\ContosoUniversity\obj\Debug\net5.0\Razor\Views\Students\Index.cshtml.g.cs
-C:\YM200\ContosoUniversity\obj\Debug\net5.0\ContosoUniversity.csprojAssemblyReference.cache

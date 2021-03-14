@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////
-// Date             Developer           Description:
+// Date             Developer          
 // 2021-03-12      Yahya Mirzaei 
 
 
@@ -11,7 +11,7 @@ namespace ContosoUniversity.Models
     {
         public string RequestId { get; set; }
 
-        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId);
+        public bool ShowRequestId => !string.IsNullOrEmpty(RequestId); 
+        //tinfo200:[2021-03-13-yahyam2-dykstra1] - verify ID
     }
 }
-//tinfo200:[2021-03-13-yahyam2-dykstra1]

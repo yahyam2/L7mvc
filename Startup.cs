@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////
-// Date             Developer           Description:
+// Date             Developer           
 // 2021-03-12      Yahya Mirzaei 
 
 using Microsoft.AspNetCore.Builder;

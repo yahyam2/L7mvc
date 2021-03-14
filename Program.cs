@@ -1,5 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////
-// Date             Developer           Description:
+// Date             Developer           
 // 2021-03-12      Yahya Mirzaei 
 
 using Microsoft.AspNetCore.Hosting;
@@ -27,12 +27,9 @@ namespace ContosoUniversity
             host.Run();
         }
 
-        //tinfo200:[2021-03-13-yahyam2-dykstra1]- 
+        //tinfo200:[2021-03-13-yahyam2-dykstra1]-  creating DB if is there.
         private static void CreateDbIfNotExists(IHost host)
         {
-
-            //tinfo200:[2021-03-13-yahyam2-dykstra1]- 
-            //tinfo200:[2021-03-13-yahyam2-dykstra1]- 
             //tinfo200:[2021-03-13-yahyam2-dykstra1]- 
 
             using (var scope = host.Services.CreateScope())
@@ -51,7 +48,7 @@ namespace ContosoUniversity
             }
         }
 
-        //tinfo200:[2021-03-13-yahyam2-dykstra1]- Lambda reads goes to
+        //tinfo200:[2021-03-13-yahyam2-dykstra1]- Lambda reads goes to ...
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>

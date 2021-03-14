@@ -1,5 +1,5 @@
 ﻿////////////////////////////////////////////////////////////////////////////
-// Date             Developer           Description:
+// Date             Developer         
 // 2021-03-12      Yahya Mirzaei 
 
 using System;
@@ -39,7 +39,7 @@ namespace ContosoUniversity.Controllers
 
             //tinfo200:[2021-03-13-yahyam2-dykstra1]
 
-            // the action method is for the Details view for the uses   ???
+            // the action method is for the Details view for the uses  
 
 
             var student = await _context.Students
